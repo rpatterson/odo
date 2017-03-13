@@ -75,11 +75,11 @@ def resource_all(uri, *args, **kwargs):
 
     The following call:
 
-    >>> odo('some-sorce', target)  # doctest: +SKIP
+    >>> odo('some-source', target)  # doctest: +SKIP
 
     is shorthand for the following:
 
-    >>> odo(resource('some-sorce'), target)  # doctest: +SKIP
+    >>> odo(resource('some-source'), target)  # doctest: +SKIP
 
     Create datasets with resource
     -----------------------------
